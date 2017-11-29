@@ -1,0 +1,43 @@
+
+
+body {
+    background-image: url("../images/timeCircuits.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+.container {
+	text-align: center;
+	color: #FF642A;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-shadow: 1px 1px 1px #000; 
+
+}
+
+.spacing {
+	padding: 2px;
+}
+
+.location {
+	background:#7f7f7f;
+  	background:rgba(0,0,0,0.5);
+  	border-radius: 40px;
+
+}
+
+
+p {
+	padding-top: 10px;
+	font-size: 50px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+}
+button {
+	text-shadow: 3px 3px 3px #000; 
+}
+.spacing {
+	margin: 25px 100px 0px 100px;
+}

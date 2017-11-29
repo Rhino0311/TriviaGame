@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lan='en'>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Back to the Future Trivia</title>
+	<link rel= "stylesheet" type= "text/css" href= "assets/css/reset.css">
+	<link rel= "stylesheet" type= "text/css" href= "assets/css/style.css">
+	<link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+<div class="container">
+	<div class="spacing">
+
+	<p>Back to the Future Trivia</p>
+	
+<div class="location">	
+	<div class="timeLeft"> <h3><span id="count">88</span> seconds remaining</h3></div>
+	<br>
+		<h3 id="question"></h3>
+		<h3 id="answers"></h3>
+	
+	
+	<!--Buttons-->
+	<button type="button" id="startClock" class="btn btn-primary btn-lg gameStart">Begin</button>
+
+	<br>
+	<button type="button" id="submitResult" class="btn btn-primary btn-lg next">Done</button>
+
+	
+	<div class="endGame">
+	<h2> Results:</h2>
+	<h2 id="correctGuesses">Answered Correctly: </h2>
+	<h2>Out of 5 Questions</h2>
+	<button type="button" id="startClock" class="btn btn-primary btn-lg gameStart">Restart Game</button>
+	</div>
+	
+	
+	</div>
+</div>	
+</div> 
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/javascript/app.js"></script>
+	
+	
+</body>
+</html>
