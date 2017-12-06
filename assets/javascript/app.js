@@ -34,6 +34,7 @@ var timer ;
 
 
 // start 
+
 var startGame = {
 
 	viewQuestions: function() {
@@ -73,6 +74,8 @@ var startGame = {
 		$(".timeLeft").hide();
 		$(".endGame").show();
 		$('#correctGuesses').append(correctAnswers);
+	
+    
 	}, // reset
 
 
@@ -96,8 +99,9 @@ var startGame = {
 
 }; 
 
-
-
+$("#endClock").click(function(){
+    window.location.reload();
+});
 
 
 $("#startClock").click(function(){
@@ -109,6 +113,8 @@ $("#startClock").click(function(){
 
 $("#submitResult").click(function(){
     startGame.checkAnswers();
+
+
  });
 
 
